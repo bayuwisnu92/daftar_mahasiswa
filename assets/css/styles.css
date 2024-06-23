@@ -1,0 +1,24 @@
+.super {
+    background-image: url('../img/hal1.jpg');
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
+}
+.super h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+.super h2 {
+    font-size: 1.5rem;
+    margin-bottom: 40px;
+}
+.super .btn {
+    padding: 10px 20px;
+    font-size: 1.2rem;
+}
